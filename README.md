@@ -1,14 +1,14 @@
 ## Overview
 
-This GitHub repository contains Python scripts focused on advanced image processing techniques, particularly for image restoration. The repository demonstrates the implementation of three distinct image restoration algorithms: Richardson-Lucy Iteration, Wiener Filter, and Quadratic Penalized Weighted Least Squares (QPWLS) Estimator. These scripts provide a practical approach to mitigating issues like blur and noise in digital images, showcasing the power of computational image processing.
+This GitHub repository contains Python scripts focused on advanced image processing techniques, particularly for image restoration. The repository demonstrates the implementation of three distinct image restoration algorithms: Richardson-Lucy Iteration, Wiener Filter, and Quadratic Penalized Weighted Least Squares (QPWLS) Estimator. These scripts provide a practical approach to mitigating issues like blur and noise in digital images.
 
 ## Contents
 
-1. `richardson_lucy.py` - Implements the Richardson-Lucy iterative method for image deconvolution, particularly useful for dealing with blur caused by a known Gaussian kernel.
+1. `RichardsonLucy.py` - Implements the Richardson-Lucy iterative method for image deconvolution, particularly useful for dealing with blur caused by a known Gaussian kernel.
 
-2. `wiener_filter.py` - Features the application of the Wiener Filter, an optimal restoration filter for images corrupted by linear motion or out-of-focus blur in conjunction with additive Gaussian noise.
+2. `WienerFilter.py` - Features the application of the Wiener Filter, an optimal restoration filter for images corrupted by linear motion or out-of-focus blur in conjunction with additive Gaussian noise.
 
-3. `qpwls_estimator.py` - Demonstrates the Quadratic Penalized Weighted Least Squares method for image restoration, a more advanced technique that takes into account the regularization aspect of the restoration process.
+3. `QPWLS.py` - Demonstrates the Quadratic Penalized Weighted Least Squares method for image restoration, a more advanced technique that takes into account the regularization aspect of the restoration process.
 
 Each script includes a complete pipeline from image preparation, application of the algorithm, to the visualization of the results.
 
